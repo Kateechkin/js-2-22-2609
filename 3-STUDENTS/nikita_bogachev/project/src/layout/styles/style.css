@@ -240,9 +240,6 @@ a {
     .header__search img {
       transition: transform .2s linear; }
   .header__bucket {
-    padding-left: 20px;
-    padding-bottom: 20px;
-    padding-top: 30px;
     position: relative; }
     .header__bucket:hover .header__cart {
       -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
@@ -345,7 +342,7 @@ a {
 .promo {
   height: 613px;
   background-color: #e8e8e8;
-  background-image: url(../../assets/imgs/promo.png);
+  background-image: url('https://raw.githubusercontent.com/WallOdDeath/static/master/img/JS1_shop/promo.png');
   background-repeat: no-repeat;
   background-position: center -52px;
   display: flex;
@@ -579,7 +576,7 @@ a {
 /* SUBSCRIBE */
 .subscribe {
   margin-bottom: 110px;
-  background: url(../../assets/imgs/subscribe/subscribe_main.png) center no-repeat;
+  background: url('https://raw.githubusercontent.com/WallOdDeath/static/master/img/JS1_shop/subscribe_main.png') center no-repeat;
   background-size: cover; }
   .subscribe__inner {
     display: flex; }
@@ -1709,8 +1706,7 @@ a {
   border-radius: 5px;
   background-color: #ffffff;
   position: absolute;
-  top: 73px;
-  left: 8px;
+  top: 45px;
   z-index: 1; }
   .drop:before {
     content: "";
